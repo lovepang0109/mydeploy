@@ -11,7 +11,9 @@
 
 <body class="font-mono bg-gray-300 w-screen h-screen flex items-center justify-center">
     <?php 
+        echo "555555555555555555555";
         echo json_encode(['time' => time(), 'date' => date('d.m.Y'), 'tech' => 'Vercel']);
+        echo "333333333333333333333";
 
      ?>
     <div>
