@@ -4,7 +4,7 @@
 
 
 <?php  
-	var_dump($ook);
+	echo $ook;
 ?>
 
 </h1>
