@@ -1,6 +1,6 @@
 
 <h1>
 
-echo $data;
+{{$ook}}
 
 </h1>

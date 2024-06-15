@@ -77,7 +77,7 @@ class BlogController extends Controller
         
         $data = 'hello howare you';
 
-        return Phase::view('kkk', 'ook'=>$data);
+        return Phase::view('kkk', ['ook'=>$data]);
     }
 
 }
