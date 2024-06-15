@@ -1,6 +1,10 @@
 
 <h1>
 
-{{$ook}}
+
+
+<?php  
+	var_dump($ook);
+?>
 
 </h1>
