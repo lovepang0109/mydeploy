@@ -70,4 +70,14 @@ class BlogController extends Controller
         // generate the same articles
         return factory(Article::class, 10)->make();
     }
+
+
+    public function kkk()
+    {
+        
+        $data = 'hello howare you';
+        
+        return Phase::view('kkk', $data);
+    }
+
 }
