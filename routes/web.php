@@ -17,4 +17,4 @@ Route::phase('/', 'BlogController@HomePage');
 Route::phase('/about', 'BlogController@AboutPage');
 Route::phase('/contact', 'BlogController@ContactPage');
 Route::phase('/posts/{article}', 'BlogController@SingleArticle');
-Route::phase('/kkk', 'BlogController@kkk')
+Route::phase('/kkk', 'BlogController@kkk');
