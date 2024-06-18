@@ -13,7 +13,7 @@ use App\Http\Controllers\BlogController;
 |
 */
 
-Route::get('/', [BlogController::class, 'index']);
+Route::get('/', [BlogController::class, 'HomePage']);
 // Route::phase('/', 'BlogController@HomePage');
 // Route::phase('/about', 'BlogController@AboutPage');
 // Route::phase('/contact', 'BlogController@ContactPage');
